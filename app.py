@@ -25,8 +25,8 @@ app.config['suppress_callback_exceptions']=True
 
 # configure google oauth using environment variables
 server.secret_key = os.environ.get("FLASK_SECRET_KEY", "supersekrit")
-server.config["GOOGLE_OAUTH_CLIENT_ID"] = os.environ["GOOGLE_OAUTH_CLIENT_ID"]
-server.config["GOOGLE_OAUTH_CLIENT_SECRET"] = os.environ["GOOGLE_OAUTH_CLIENT_SECRET"]
+server.config["GOOGLE_OAUTH_CLIENT_ID"] = "0oaan9verNrkCBbuE4x6"
+server.config["GOOGLE_OAUTH_CLIENT_SECRET"] = "eoUW0CxUJfYuBQQBL1NINqtjAxxFANXNVH32t8KL"
 
 # allow for insecure transport for local testing (remove in prod)
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
